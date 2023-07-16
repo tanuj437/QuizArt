@@ -16,7 +16,7 @@ hands = mphands.Hands()
 cap = cv2.VideoCapture(0)
 tipIds = [4, 8, 12, 16, 20]
 
-folderpath = "header"
+folderpath = "Virtual Painter\header"
 myList = os.listdir(folderpath)
 # print(myList)
 overlayList = []
