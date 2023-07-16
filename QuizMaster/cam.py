@@ -5,7 +5,7 @@ from cvzone.HandTrackingModule import HandDetector
 import tkinter as tk
 
 width, height = 800, 600  # Adjust the width and height to a smaller size
-folderPath = "Images"
+folderPath = "QuizMaster\Images"
 
 cap = cv2.VideoCapture(0)
 cap.set(3, width)
