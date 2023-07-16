@@ -3,10 +3,10 @@ from tkinter import ttk
 import os
 
 def run_virtual_painter():
-    os.system("painter.py")
+    os.system("Virtual Painter\painter.py")
 
 def run_quiz_master():
-    os.system("cam.py")
+    os.system("QuizMaster\cam.py")
 
 root = tk.Tk()
 root.title("QuizArt")
